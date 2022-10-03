@@ -67,5 +67,3 @@ def hex2base64(s):
     'EjRWeJq83g=='
     """
     return int2base64(int(s, base=16))
-
-print(int2base64(0x61))
