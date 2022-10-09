@@ -1,0 +1,1 @@
+sort shakespeare.txt | uniq -c | sort -rn | grep -oe "^ *[1-9]* [A-Z ]*$" | head -n 1 | cut -c9-
